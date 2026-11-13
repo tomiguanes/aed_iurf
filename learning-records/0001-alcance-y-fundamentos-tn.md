@@ -1,0 +1,3 @@
+# Alcance del examen IURF y comprensión intuitiva de T(n)
+
+El examen IURF se concentra exclusivamente en notación asintótica ($O$, $\Omega$, $\Theta$), demostraciones formales, y análisis y cálculo de $T(n)$ en algoritmos iterativos y recursivos. El estudiante comprende con claridad la intuición detrás de $T(n)$: que abstrae el costo del algoritmo en función del tamaño de la entrada $n$ contando operaciones elementales para independizarse del hardware o entorno de ejecución, y que el análisis del peor caso actúa como garantía ante el escenario más exigente. El siguiente paso en su zona de desarrollo próximo es conectar la expresión algebraica exacta de $T(n)$ con la necesidad de las cotas asintóticas y su definición matemática formal.
