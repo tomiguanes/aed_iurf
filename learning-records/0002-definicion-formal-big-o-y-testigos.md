@@ -1,0 +1,3 @@
+# Definición formal de Big-O y técnica de acotación término a término
+
+El estudiante desglosó y asimiló cada componente de la definición formal $O(g(n)) = \{f(n) : \exists c, n_0 \in \mathbb{R}^+ \text{ tales que } 0 \le f(n) \le c \cdot g(n), \forall n \ge n_0\}$, distinguiendo entre el conjunto de funciones $O(g(n))$ y la función de referencia $g(n)$, así como el rol del multiplicador $c$ y del umbral $n_0$ frente a costos iniciales. Resolvió correctamente $3n \in O(n)$ y $n^2 + n \in O(n^2)$ eligiendo $c=2, n_0=1$, y se introdujo la cadena algebraica de acotación término a término ($n^2 + n \le n^2 + n^2 = 2n^2$ para $n \ge 1$). Quedan planteados para retomar los ejercicios 3 del Tema 3 ($\lg(n) + 3n \in O(n)$) y del Tema 1 ($a 2^n + n \in O(2^n)$) del parcial.
